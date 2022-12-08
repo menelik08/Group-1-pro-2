@@ -1,0 +1,8 @@
+<section class="container">
+  <h3 class="shoe-brand">{{shoeBrand.name}}</h3>
+  <section class="flex-row justify-center">
+    {{#each shoeBrand.shoeStyle as |shoeStyle|}}
+    {{> shoeStyle-details}}
+    {{/each}}
+  </section>
+</section>
