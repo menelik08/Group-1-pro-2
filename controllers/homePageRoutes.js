@@ -1,23 +1,23 @@
 const router = require('express').Router();
-const { Gallery, Painting } = require('../models');
+const { Brand, Style } = require('../models');
 
 // need to update variables to match once we have all our informaton for handlebars and such
 router.get('/', async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findAll({
+    const dbBrandData = await Brand.findAll({
       include: [
         {
-          model: Painting,
+          model: Style,
           attributes: ['filename', 'description'],
         },
       ],
     });
 
-    const galleries = dbGalleryData.map((gallery) =>
-      gallery.get({ plain: true })
+    const brands = dbBrandData.map((Brand) =>
+      Brand.get({ plain: true })
     );
     res.render('homepage', {
-      galleries,
+      brands,
       loggedIn: req.session.loggedIn,
     });
   } catch (err) {

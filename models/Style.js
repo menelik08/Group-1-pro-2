@@ -17,15 +17,15 @@ Style.init(
     },
     description: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     price: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      allowNull: true,
     },
     filename: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     gallery_id: {
       type: DataTypes.INTEGER,
