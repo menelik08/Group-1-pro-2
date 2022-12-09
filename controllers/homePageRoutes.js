@@ -53,12 +53,12 @@ router.get('/brand/:id', async (req, res) => {
 });
 
 // GET one shoe by id and possibly reviews. 
-router.get('/painting/:id', async (req, res) => {
+router.get('/style/:id', async (req, res) => {
   try {
-    const dbPaintingData = await Painting.findByPk(req.params.id);
+    const dbstyleData = await Style.findByPk(req.params.id);
 
-    const painting = dbPaintingData.get({ plain: true });
-    res.render('painting', { painting, loggedIn: req.session.loggedIn });
+    const styles = dbstyleData.get({ plain: true });
+    res.render('shoeStyle', { styles, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
