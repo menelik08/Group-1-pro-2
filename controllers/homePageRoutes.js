@@ -27,17 +27,16 @@ router.get('/', async (req, res) => {
 });
 
 // // need to update variables to match once we have all our informaton for handlebars and such
-router.get('/gallery/:id', async (req, res) => {
+router.get('/brand/:id', async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findByPk(req.params.id, {
+    const dbBrandData = await Brand.findByPk(req.params.id, {
       include: [
         {
-          model: Painting,
+          model: Style,
           attributes: [
             'id',
-            'title',
-            'artist',
-            'exhibition_date',
+            'product_name',
+            'price',
             'filename',
             'description',
           ],
@@ -45,8 +44,8 @@ router.get('/gallery/:id', async (req, res) => {
       ],
     });
 
-    const gallery = dbGalleryData.get({ plain: true });
-    res.render('gallery', { gallery, loggedIn: req.session.loggedIn });
+    const brand = dbBrandData.get({ plain: true });
+    res.render('shoeBrand', { brand, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
