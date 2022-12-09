@@ -20,14 +20,14 @@ Style.init(
       allowNull: true,
     },
     price: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: true,
     },
     filename: {
       type: DataTypes.STRING,
       allowNull: true,
     },
-    gallery_id: {
+    brand_id: {
       type: DataTypes.INTEGER,
       references: {
         model: 'brand',
