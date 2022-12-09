@@ -1,6 +1,6 @@
 const { Style } = require('../models');
 
-const styledata = [
+const styleData = [
   {
     product_name: 'Adidas',
     brand_id: 3,
@@ -126,6 +126,6 @@ const styledata = [
   },
 ];
 
-const seedStyles = () => Style.bulkCreate(styledata);
+const seedStyles = () => Style.bulkCreate(styleData);
 
 module.exports = seedStyles;
