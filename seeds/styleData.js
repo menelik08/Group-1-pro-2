@@ -1,24 +1,24 @@
 const { Style } = require('../models');
 
 const styleData = [
-  {
-    product_name: 'Adidas',
-    brand_id: 3,
-    filename: '01-adidas.png',
-    description: 'Adidas logo',
-  },
-  {
-    product_name: 'Jordan',
-    brand_id: 2,
-    filename: '02-jordan.png',
-    description: 'Jordan logo',
-  },
-  {
-    product_name: 'Nike',
-    brand_id: 1,
-    filename: '03-nike.png',
-    description: 'Nike logo',
-  },
+  // {
+  //   product_name: 'Adidas',
+  //   brand_id: 3,
+  //   filename: '01-adidas.png',
+  //   description: 'Adidas logo',
+  // },
+  // {
+  //   product_name: 'Jordan',
+  //   brand_id: 2,
+  //   filename: '02-jordan.png',
+  //   description: 'Jordan logo',
+  // },
+  // {
+  //   product_name: 'Nike',
+  //   brand_id: 1,
+  //   filename: '03-nike.png',
+  //   description: 'Nike logo',
+  // },
   {
     product_name: 'Adidas shoe',
     brand_id: 1,
