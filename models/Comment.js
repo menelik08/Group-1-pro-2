@@ -12,37 +12,32 @@ Comment.init(
       autoIncrement: true,
     },
     username_id: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    email: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-      validate: {
-        isEmail: true,
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
       },
     },
-    password: {
+    style_id: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [6],
+      references: {
+        model: 'style',
+        key: 'id',
       },
     },
+    comment_content: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    }
+
   },
   {
-    hooks: {
-      async beforeCreate(newCommentData) {
-        newCommentData.password = await bcrypt.hash(newCommentData.password, 10);
-        return newCommentData;
-      },
-    },
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Comment',
+    modelName: 'comment',
   }
 );
 
