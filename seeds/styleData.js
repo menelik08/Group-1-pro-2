@@ -71,7 +71,7 @@ const styleData = [
     filename: '10-Air-Jordan-1-High-85-Georgetown.png',
     price: '$200',
     description: 'Air Jordan 1 High 85 "Georgetown"',
-    product_description:,
+    product_description:'The Air Jordan 1 Retro High 85 "Georgetown" pays tribute to the OG silhouette with a restored heritage build. The two-tone design commemorates the 40th anniversary of the Michael Jordan title-clinching shot against the Hoyas on March 29, 1982, pairing a light grey base with contrasting College Navy overlays. Signature details include a woven Nike Air tag on the nylon tongue and a retro Wings logo stamped on the lateral ankle. The classic high-top is mounted on a rubber cupsole, with an Air-sole heel unit encapsulated in polyurethane.',
   },
   {
     product_name: 'Jordan shoe',
@@ -79,7 +79,7 @@ const styleData = [
     filename: '11-Air-Jordan-1-Travis-Scott-Low-Reverse-Mocha.png',
     price: '$150',
     description: 'Air Jordan 1 Travis Scott Low "Reverse Mocha"',
-    product_description:,
+    product_description:'The Travis Scott x Air Jordan 1 Low OG "Reverse Mocha" renews a memorable color scheme with this version of the rapper 2019 Mocha. Made for little kids, brown nubuck with leather overlays in off-white are accented on the upper by an exaggerated Swoosh in reverse. Branding pairs "Nike Air" and Cactus Jack on the tongue, while the heel has the signature TS face sketch on the left and Jordan wings logo on the right, both in scarlet-red stitching. Underfoot, a brown rubber outsole enhances grip and traction beneath the midsole in an vintage-feel off-white.',
   },
   {
     product_name: 'Jordan shoe',
@@ -87,7 +87,7 @@ const styleData = [
     filename: '12-Air-Jordan-4-White-Oreo.png',
     price: '$190',
     description: 'Air Jordan 4 "White Oreo"',
-    product_description:,
+    product_description:'Modeled after the Air Jordan 4 Oreo from 1999, the Air Jordan 4 Retro White Oreo released in May 2021. The shoe upper emerges with a white tumbled leather construction, with the usual mesh inserts at the quarter panel and vamp. The molded eyelets sport a cement finish, matched underfoot by the polyurethane midsole. Visible Air in the heel provides cushioning, giving way to a rubber outsole for traction.',
   },
   {
     product_name: 'Jordan shoe',
@@ -95,7 +95,7 @@ const styleData = [
     filename: '13-Air-Jordan-6-UNC.png',
     price: '$210',
     description: 'Air Jordan 6 "UNC"',
-    product_description:,
+    product_description:'The Air Jordan 6 Retro UNC Home pays homage to Michael Jordan alma mater, bearing a colorway reminiscent of the University of North Carolina. The classic hoops sneakers feature a white leather upper set against University Blue nubuck underlays. Hits of navy appear on the molded TPU heel tab and collar lining. Navy repeats on the midsole, which houses visible Air-sole cushioning. The jock tag on the heel reinforces the shoe varsity athletics theme.',
   },
   {
     product_name: 'Jordan shoe',
@@ -103,7 +103,7 @@ const styleData = [
     filename: '14-Air-Jordan-12-Playoffs.png',
     price: '$210',
     description: 'Air Jordan 12 "Playoffs"',
-    product_description:,
+    product_description:'Bringing back the mid-top that Michael wore during his 1997 championship campaign is the 2022 edition of the Air Jordan 12 Retro Playoff. It features an essential two-tone color scheme, featuring radiating stitched lines on the black leather upper and lizard-textured overlays in a contrasting white finish. Metallic silver eyelets are molded on, while color-popped crimson accents land on the Jumpman-embroidered tongue and webbing heel loop. Full-length Zoom Air cushioning is underneath with a carbon fiber shank plate and a rubber outsole with herringbone traction pods under the forefoot and heel.',
   },
   {
     product_name: 'Nike shoe',
@@ -111,7 +111,7 @@ const styleData = [
     filename: '15-Nike-Air-Force-1.png',
     price: '$100',
     description: 'Nike Air Force 1',
-    product_description:,
+    product_description:'The radiance lives on in the Nike Air Force 1 ’07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.',
   },
   {
     product_name: 'Nike shoe',
@@ -119,7 +119,7 @@ const styleData = [
     filename: '16-Nike-Air-Max-90.png',
     price: '$130',
     description: 'Nike Air Max 90',
-    product_description:,
+    product_description:'Nothing as fly, nothing as comfortable, nothing as proven. The Nike Air Max 90 stays true to its OG running roots with the iconic Waffle sole, stitched overlays and classic TPU details. Classic colors celebrate your fresh look while Max Air cushioning adds comfort to the journey.',
   },
   {
     product_name: 'Nike shoe',
@@ -127,7 +127,7 @@ const styleData = [
     filename: '17-Nike-Air-Max-95-SE.png',
     price: '$180',
     description: 'Nike Air Max 95 SE',
-    product_description:,
+    product_description:'Playful retro graphics vibe with layers of 90s track aesthetics for a look that celebrates 50 years of Nike innovation. This throwback twist does not mean we have stepped back from cutting-edge design—the supersoft Air cushioning and durable construction make it your must-have wardrobe staple for the next 50 years.',
   },
   {
     product_name: 'Nike shoe',
@@ -135,7 +135,7 @@ const styleData = [
     filename: '18-Nike-Air-Max-97.png',
     price: '$170',
     description: 'Nike Air Max 97',
-    product_description:,
+    product_description:'Step into the history books. These special edition kicks pay homage to Frank Rudy, the man who created the coveted cornerstone of cushioning—Air. From the see-through "Air pocket" heel logo to "Est. 1997" proudly stamped on the Air unit, celebrate the legacy of Frank with fun details that deliver a lesson in comfort.',
   },
   {
     product_name: 'Nike shoe',
@@ -143,7 +143,7 @@ const styleData = [
     filename: '19-Nike-Dunk-Low-Panda.png',
     price: '$100',
     description: 'Nike Dunk Low Panda',
-    product_description:,
+    product_description:'Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colors. This basketball icon channels 80s vibes with premium leather in the upper that looks good and breaks in even better. Modern footwear technology helps bring the comfort into the 21st century.',
   },
   {
     product_name: 'New Balance shoe',
