@@ -9,6 +9,23 @@
     <p>Price: {{styles.price}}</p>
   </div>
 </section>
+
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Create a New Review</h3>
+
+    <form class="form new-project-form">
+      <div class="form-group">
+        <label for="project-desc">Review</label>
+        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Post</button>
+      </div>
+    </form>
+  </div>
+  <script src="./js/comment.js"></script>
 {{else}}
 <a href="/login">You must login first to view this page</a>
 {{/if}}
