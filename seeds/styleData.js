@@ -31,7 +31,7 @@ const styleData = [
     filename: '05-Adidas-Originals-NMD_R1.png',
     price: '$160',
     description: 'Adidas Originals NMD_R1',
-    product_description:,
+    product_description:"Bringing back the 2015 debut colorway of the silhouette, the NMD_R1 'Black OG' released six years later. Built with stretch knit, the shoe's upper appears in black, supported by a bound collar that replaces the Primeknit cuff of its predecessor. A heel pull-loop is included for easy on and off, while underfoot, white full-length Boost provides cushioning and contrast, accented by red and blue EVA plugs for stability.",
   },
   {
     product_name: 'Adidas shoe',
@@ -39,7 +39,7 @@ const styleData = [
     filename: '06-Adidas-Pharrell-Human-Race-Sichona-Burgundy.png',
     price: '$180',
     description: 'Adidas Pharrell x Human Race Sichona "Burgundy"',
-    product_description:,
+    product_description:"Pharrell teamed up with adidas to deliver the Human Race Sichona 'Burgundy.' The silhouette with a name that translates to the Indigenous phrase for 'connecting to the earth,' or the Dakota tribe's way of saying 'barefoot.' Its' seamless construction is built with adidas' Futurnatural technology, highlighted by a maroon Primeknit upper that blends with a magenta-colored, anatomically molded TPU midsole. 'Humanrace' is printed in yellow lettering across the lateral quarter panel, while adidas branding decorates a pink webbing pull tab on the tongue. The rubber outsole underneath has a digitally printed Humanrace typographic pattern.",
   },
   {
     product_name: 'Adidas shoe',
@@ -47,7 +47,7 @@ const styleData = [
     filename: '07-Adidas-Superstar.png',
     price: '$100',
     description: 'Adidas Superstar',
-    product_description:,
+    product_description:"The adidas Superstar Shoes first stepped onto the basketball hardwood in 1970. It didn't take long for them to make the leap from athletic gear to streetwear staple. These shoes show off the materials, proportions and style that made the original such a legend. They've got a smooth leather upper with sporty 3-Stripes and a heel tab. They're finished off with the world-famous rubber shell toe.",
   },
   {
     product_name: 'Adidas shoe',
@@ -55,7 +55,7 @@ const styleData = [
     filename: '08-Adidas-Yeezy-Boost-350-Turtle-Dove.png',
     price: '$200',
     description: 'Adidas Yeezy Boost 350 "Turtle Dove"',
-    product_description:,
+    product_description:"The Yeezy Boost 350 Turtle Dove was the second shoe released in the adidas Yeezy collection after the Yeezy Boost 750 OG. First seen on Kanye and his models at the Yeezy Season 1 fashion show in February 2015, this colorway was anointed 2015 Shoe of the Year at the Footwear News 29th Annual Achievement Awards.",
   },
   {
     product_name: 'Adidas shoe',
@@ -63,7 +63,7 @@ const styleData = [
     filename: '09-Adidas-YEEZY-FOAM-RUNNER-Onyx.png',
     price: '$170',
     description: 'Adidas YEEZY FOAM RUNNER "Onyx"',
-    product_description:,
+    product_description:"Utilizing a sleek monochrome finish, the adidas Yeezy Foam Runner Onyx is an understated colorway for a futuristic slip-on. A molded one-piece upper showcases open vents for breathability, while the injected EVA foam is lightweight and is secured by a unique traction pattern for grip.",
   },
   {
     product_name: 'Jordan shoe',
@@ -151,7 +151,7 @@ const styleData = [
     filename: '20-Joe-Freshgoods-9060-Penny-Cookie-Pink.png',
     price: '$200',
     description: 'Joe Freshgoods 9060 Penny Cookie Pink',
-    product_description:,
+    product_description:"The Joe Freshgoods x New Balance 9060 Penny Cookie Pink is a colorful silhouette introduced by a partnership between designer Joe Freshgoods and New Balance in their Inside Voices pack, a follow-up their 2021 collaboration Outside Clothes. Echoing elements of the 990 series and heritage runners from the early 2000's, pale peach and bright pink partner in a ventilated mesh upper, suede overlays and a quilted lining. The ABZORB midsole features mint-green cushioning and rides on a futuristic outsole make up of gum rubber pods in pale peach.",
   },
   {
     product_name: 'New Balance shoe',
@@ -159,7 +159,7 @@ const styleData = [
     filename: '21-FuelCell-4040-v6-Turf-Trainer.png',
     price: '$90',
     description: 'FuelCell 4040 v6 Turf Trainer',
-    product_description:,
+    product_description:"Function and style come together to boost your performance and your swagger with the FuelCell T4040v6 baseball turf shoes. Full-length FuelCell midsoles provide impressive energy return and propulsion and nubby rubber outsoles offer reliable traction. The uppers of these men’s shoes are built with synthetic and mesh material and feature a burrito tongue to help keep feet locked in comfortably. An eye-catching flying NB logo adds speedy style to match the fast feel.",
   },
   {
     product_name: 'New Balance shoe',
@@ -167,7 +167,7 @@ const styleData = [
     filename: '22-TWO-WXY-v3.png',
     price: '$120',
     description: 'TWO WXY v3',
-    product_description:,
+    product_description:"Inspired by the brains firing synapses, the TWO WXY v3 is designed for basketballs split-second reactions - the sudden accelerations, quick stops, pivots, and high-impact landings that occur throughout every game. A lively, dual-density, energy returning FuelCell midsole is amplified by ABZORB cushioning, strategically placed at the heel and forefoot. The dynamic underfoot feel is balanced by stabilizing features. A midfoot TPU clip adds lateral stability, while a molded textile upper allows for a secure lockdown fit, without adding extra weight.",
   },
   {
     product_name: 'New Balance shoe',
@@ -175,7 +175,7 @@ const styleData = [
     filename: '23-574-Core.png',
     price: '$85',
     description: '574 Core',
-    product_description:,
+    product_description:"The most New Balance shoe ever says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As hybrid road/trail design built on a wider last than the previous generations narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. Thats why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
   },
   {
     product_name: 'New Balance shoe',
@@ -183,7 +183,7 @@ const styleData = [
     filename: '24-Fresh-Foam-1080v12.png',
     price: '$160',
     description: 'Fresh Foam 1080v12',
-    product_description:,
+    product_description:"If we only made one running shoe, that shoe would be the 1080. What makes the 1080 unique is not just that it is the best running shoe we make, it is also the most versatile. The 1080 delivers top-of-the-line performance to every kind of runner, whether you are training for world-class competition, or catching a rush hour train. The Fresh Foam X 1080v12 represents a consistent progression of the models signature qualities. The smooth transitions of the pinnacle underfoot cushioning experience are fine-tuned with updated midsole mapping, which applies more foam to wider areas of the midsole and increases flexibility at the narrower points. The ultra-modern outlook is also reflected in the 1080s upper construction. The v12 offers a supportive, second-skin style fit with an engineered Hypoknit upper, for a more streamlined overall design.",
   },
  
 ];
