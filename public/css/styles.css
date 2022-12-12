@@ -51,7 +51,7 @@
   
   nav {
     display: flex;
-    background-color: var(--secondary);
+    background-color: var(--quatrinary);
   }
   
   nav a {
