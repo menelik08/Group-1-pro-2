@@ -31,6 +31,7 @@ const styleData = [
     filename: '05-Adidas-Originals-NMD_R1.png',
     price: '$160',
     description: 'Adidas Originals NMD_R1',
+    product_description:,
   },
   {
     product_name: 'Adidas shoe',
@@ -38,6 +39,7 @@ const styleData = [
     filename: '06-Adidas-Pharrell-Human-Race-Sichona-Burgundy.png',
     price: '$180',
     description: 'Adidas Pharrell x Human Race Sichona "Burgundy"',
+    product_description:,
   },
   {
     product_name: 'Adidas shoe',
@@ -45,6 +47,7 @@ const styleData = [
     filename: '07-Adidas-Superstar.png',
     price: '$100',
     description: 'Adidas Superstar',
+    product_description:,
   },
   {
     product_name: 'Adidas shoe',
@@ -52,6 +55,7 @@ const styleData = [
     filename: '08-Adidas-Yeezy-Boost-350-Turtle-Dove.png',
     price: '$200',
     description: 'Adidas Yeezy Boost 350 "Turtle Dove"',
+    product_description:,
   },
   {
     product_name: 'Adidas shoe',
@@ -59,6 +63,7 @@ const styleData = [
     filename: '09-Adidas-YEEZY-FOAM-RUNNER-Onyx.png',
     price: '$170',
     description: 'Adidas YEEZY FOAM RUNNER "Onyx"',
+    product_description:,
   },
   {
     product_name: 'Jordan shoe',
@@ -66,6 +71,7 @@ const styleData = [
     filename: '10-Air-Jordan-1-High-85-Georgetown.png',
     price: '$200',
     description: 'Air Jordan 1 High 85 "Georgetown"',
+    product_description:,
   },
   {
     product_name: 'Jordan shoe',
@@ -73,6 +79,7 @@ const styleData = [
     filename: '11-Air-Jordan-1-Travis-Scott-Low-Reverse-Mocha.png',
     price: '$150',
     description: 'Air Jordan 1 Travis Scott Low "Reverse Mocha"',
+    product_description:,
   },
   {
     product_name: 'Jordan shoe',
@@ -80,6 +87,7 @@ const styleData = [
     filename: '12-Air-Jordan-4-White-Oreo.png',
     price: '$190',
     description: 'Air Jordan 4 "White Oreo"',
+    product_description:,
   },
   {
     product_name: 'Jordan shoe',
@@ -87,6 +95,7 @@ const styleData = [
     filename: '13-Air-Jordan-6-UNC.png',
     price: '$210',
     description: 'Air Jordan 6 "UNC"',
+    product_description:,
   },
   {
     product_name: 'Jordan shoe',
@@ -94,6 +103,7 @@ const styleData = [
     filename: '14-Air-Jordan-12-Playoffs.png',
     price: '$210',
     description: 'Air Jordan 12 "Playoffs"',
+    product_description:,
   },
   {
     product_name: 'Nike shoe',
@@ -101,6 +111,7 @@ const styleData = [
     filename: '15-Nike-Air-Force-1.png',
     price: '$100',
     description: 'Nike Air Force 1',
+    product_description:,
   },
   {
     product_name: 'Nike shoe',
@@ -108,6 +119,7 @@ const styleData = [
     filename: '16-Nike-Air-Max-90.png',
     price: '$130',
     description: 'Nike Air Max 90',
+    product_description:,
   },
   {
     product_name: 'Nike shoe',
@@ -115,6 +127,7 @@ const styleData = [
     filename: '17-Nike-Air-Max-95-SE.png',
     price: '$180',
     description: 'Nike Air Max 95 SE',
+    product_description:,
   },
   {
     product_name: 'Nike shoe',
@@ -122,6 +135,7 @@ const styleData = [
     filename: '18-Nike-Air-Max-97.png',
     price: '$170',
     description: 'Nike Air Max 97',
+    product_description:,
   },
   {
     product_name: 'Nike shoe',
@@ -129,6 +143,7 @@ const styleData = [
     filename: '19-Nike-Dunk-Low-Panda.png',
     price: '$100',
     description: 'Nike Dunk Low Panda',
+    product_description:,
   },
   {
     product_name: 'New Balance shoe',
@@ -136,6 +151,7 @@ const styleData = [
     filename: '20-Joe-Freshgoods-9060-Penny-Cookie-Pink.png',
     price: '$200',
     description: 'Joe Freshgoods 9060 Penny Cookie Pink',
+    product_description:,
   },
   {
     product_name: 'New Balance shoe',
@@ -143,6 +159,7 @@ const styleData = [
     filename: '21-FuelCell-4040-v6-Turf-Trainer.png',
     price: '$90',
     description: 'FuelCell 4040 v6 Turf Trainer',
+    product_description:,
   },
   {
     product_name: 'New Balance shoe',
@@ -150,6 +167,7 @@ const styleData = [
     filename: '22-TWO-WXY-v3.png',
     price: '$120',
     description: 'TWO WXY v3',
+    product_description:,
   },
   {
     product_name: 'New Balance shoe',
@@ -157,6 +175,7 @@ const styleData = [
     filename: '23-574-Core.png',
     price: '$85',
     description: '574 Core',
+    product_description:,
   },
   {
     product_name: 'New Balance shoe',
@@ -164,6 +183,7 @@ const styleData = [
     filename: '24-Fresh-Foam-1080v12.png',
     price: '$160',
     description: 'Fresh Foam 1080v12',
+    product_description:,
   },
  
 ];

@@ -39,6 +39,7 @@ router.get('/brand/:id', async (req, res) => {
             'price',
             'filename',
             'description',
+            'product_description'
           ],
         },
       ],
