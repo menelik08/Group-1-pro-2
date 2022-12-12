@@ -27,6 +27,10 @@ Style.init(
       type: DataTypes.STRING,
       allowNull: true,
     },
+    product_description: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
     brand_id: {
       type: DataTypes.INTEGER,
       references: {
