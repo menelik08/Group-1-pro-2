@@ -21,6 +21,7 @@
     
   }
 
+
   
   a {
     color: var(--dark);
@@ -36,7 +37,7 @@
     text-align: center;
     background: var(--primary);
     color: var(--light);
-    background-image: url("https://imgur.com/KT6a0ka.gif");
+    background-image: url("//imgur.com/zC4XzxX.gif");
   }
   
   main {
