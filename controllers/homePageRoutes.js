@@ -82,4 +82,8 @@ router.get('/signup', (req, res) => {
   }
   res.render('signup');
 });
+
+router.get('/culture', (req, res) => {
+  res.render('culture');
+});
 module.exports = router;
