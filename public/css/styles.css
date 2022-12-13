@@ -1,5 +1,5 @@
 :root {
-    --primary: #538bbc;
+    --primary: #46a7fc;
     --secondary: #86938f;
     --tertiary: azure ;
     --quatrinary: #e4c548;
@@ -37,7 +37,7 @@
     text-align: center;
     background: var(--primary);
     color: var(--light);
-    background-image: url("//imgur.com/zC4XzxX.gif");
+    background-image: url("//imgur.com/duPy05b.gif");
   }
   
   main {
@@ -57,7 +57,7 @@
   
   nav {
     display: flex;
-    background-color: var(--quatrinary);
+    background-color: var(--primary);
     
   }
   
