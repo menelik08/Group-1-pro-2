@@ -21,14 +21,6 @@
     
   }
 
-  .hero-image {
-    background-image: url("25-sneakers-on-feet.png"); 
-    background-color: var(--secondary); 
-    height: 500px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-  }
   
   a {
     color: var(--dark);
