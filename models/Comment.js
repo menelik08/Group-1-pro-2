@@ -17,14 +17,14 @@ Comment.init(
     //     model: 'user',
     //     key: 'id',
     //   },
-    // brand_id: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    //   references: {
-    //     model: 'brand',
-    //     key: 'id',
-    //   },
-    // },
+    style_id: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      references: {
+        model: 'style',
+        key: 'id',
+      },
+    },
     comment_content: {
       type: DataTypes.STRING,
       allowNull: false,
