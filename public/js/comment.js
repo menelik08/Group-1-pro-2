@@ -5,7 +5,7 @@ const newFormHandler = async (event) => {
   
     const comment_content = document.querySelector('#review-desc').value.trim();
     console.log(comment_content)
-    if (description) {
+    if (comment_content) {
       const response = await fetch(`/api/comment`, {
         
         method: 'POST',
