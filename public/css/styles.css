@@ -7,6 +7,7 @@
     --dark: #182c23;
     --error: rgb(228, 46, 1);
     --border-radius: 0.3rem;
+    
   }
   
   body {
@@ -17,6 +18,7 @@
     min-height: 100vh;
     justify-content: flex-start;
     background-color: var(--quatrinary);
+    
   }
   
   a {
@@ -33,12 +35,14 @@
     text-align: center;
     background: var(--primary);
     color: var(--light);
+    background-image: url("https://imgur.com/KT6a0ka.gif");
   }
   
   main {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    
   }
   
   aside {
@@ -52,6 +56,7 @@
   nav {
     display: flex;
     background-color: var(--quatrinary);
+    
   }
   
   nav a {
