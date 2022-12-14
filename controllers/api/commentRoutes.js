@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
    console.log(req.body)
     try {
       const newReview = await Comment.create({
-        comment_content: req.body.comment_content
+        comment_content: req.body.comment_content,
       });
   
       res.status(200).json(newReview);
@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
 //     try {
 //       const styleReview = await Comment.update(
 //         {
-//           description: req.body.description,
+//           comment_content: req.body.comment_content,
 //         },
 //         {
 //           where: {
