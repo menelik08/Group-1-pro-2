@@ -1,6 +1,3 @@
-
-
-
 {{#if loggedIn}}
 <section class="container">
   <img src="/images/{{styles.filename}}" alt="{{styles.description}}">
@@ -11,21 +8,30 @@
   <p>ABOUT THIS PRODUCT: {{styles.product_description}}</p>
 </section>
 
-<div class="container">  
-    <h3>Create a New Review</h3>
-    <form class="form new-review-form">
-      <div class="form-group">
-        <label for="project-desc">Review</label>
-        <textarea class="form-input" id="review-desc" name="review-desc"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Post</button>
-      </div>
-    </form>
-  </div> 
+<div class="container">
+  <h3>Create a New Review</h3>
+  <form class="new-review-form">
+    <div class="form-group">
+      <label for="project-desc">Review</label>
+      <textarea class="form-input" id="review-desc" name="review-desc"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Post</button>
+    </div>
+  </form>
+</div>
+
+<section class="comment-card">
+  <div class="card-body">
+    <p>
+      Review:
+      {{comment_content}}
+    </p>
+  </section>
 
 
-{{else}}
-<a href="/login">You must login first to view this page</a>
-{{/if}}
-<script src="/js/comment.js"></script>
+
+  {{else}}
+  <a href="/login">You must login first to view this page</a>
+  {{/if}}
+  <script src="./js/comment.js"></script>

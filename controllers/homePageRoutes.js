@@ -86,4 +86,13 @@ router.get('/signup', (req, res) => {
 router.get('/culture', (req, res) => {
   res.render('culture');
 });
+
+
+router.get('/', async (req, res) => {
+  const commentData = await Comment.findAll().catch((err) => { 
+      res.json(err);
+    });
+      const comments = commentData.map((comment_content) => comment_content.get({ plain: true }));
+      res.render('all', { comments });
+    });
 module.exports = router;
