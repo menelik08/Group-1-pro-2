@@ -1,11 +1,8 @@
 const newFormHandler = async (event) => {
-    event.preventDefault();
+    event.preventDefault();     
   
+    const comment_content = document.querySelector('#review-desc').value;
     
-  
-    const comment_content = document.querySelector('#review-desc').value.trim();
-    console.log(comment_content)
-    if (comment_content) {
       const response = await fetch(`/api/comment`, {
         
         method: 'POST',
@@ -13,9 +10,7 @@ const newFormHandler = async (event) => {
         headers: {
           'Content-Type': 'application/json',
         },
-
-      });
-  
+      });  
       if (response.ok) {
         document.location.replace('/');
         console.log("created sccusesl")
@@ -23,7 +18,11 @@ const newFormHandler = async (event) => {
         alert('Failed to post review');
       }
     }
-  };
+  
+  
+  document
+    .querySelector('.new-review-form')
+    .addEventListener('submit', newFormHandler);
   
   // const delButtonHandler = async (event) => {
   //   if (event.target.hasAttribute('data-id')) {
@@ -40,10 +39,6 @@ const newFormHandler = async (event) => {
   //     }
   //   }
   // };
-  
-  document
-    .querySelector('.new-review-form')
-    .addEventListener('post', newFormHandler);
   
   // document
   //   .querySelector('.review-list')
