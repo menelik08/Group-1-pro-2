@@ -1,5 +1,6 @@
 async function newFormHandler(event) {
     event.preventDefault();     
+    // afterBulkCreate;ldskfjads
   
     const comment_content = document.querySelector('#review-desc').value;
       console.log(comment_content)
