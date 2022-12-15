@@ -1,16 +1,16 @@
-const newFormHandler = async (event) => {
+async function newFormHandler(event) {
     event.preventDefault();     
   
     const comment_content = document.querySelector('#review-desc').value;
-    
-      const response = await fetch(`/api/comment`, {
-        
+      console.log(comment_content)
+      const response = await fetch(`/api/comment`, {        
         method: 'POST',
-        body: JSON.stringify({comment_content }),
+        body: JSON.stringify({ comment_content }),
         headers: {
           'Content-Type': 'application/json',
         },
       });  
+
       if (response.ok) {
         document.location.replace('/');
         console.log("created sccusesl")
