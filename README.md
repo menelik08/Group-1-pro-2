@@ -14,6 +14,10 @@
 ## Description
  We are a social news lifestyle platform, content rating, and discussion website. Registered users may submit content to the site such as links, text posts, images, and videos, which are then voted up or down by other members.It is a place to find curated articles about fashion, lifestyle and discuss different topics, it is a place for members to connect with one another.
 
+ ## Screenshot
+
+![SneakersPeak](/public/images/Screen%20Shot%202022-12-14%20at%207.31.17%20PM.png)
+
 ## Installation
 N/A
 
