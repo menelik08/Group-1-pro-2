@@ -168,3 +168,59 @@
     align-items: center;
   }
   
+  .container-comment {
+    width: min(90%, 1150px);
+    margin: 3rem auto;
+  }
+
+  .comment-container {
+    position: relative;
+
+  }
+
+  .comment-container::before {
+    content: "";
+    background-color: grey;
+    position: absolute;
+    min-height: 100%;
+    width: 1px;
+    left: -10px;
+  }
+
+  .comment-container:not(:first-child) {
+    margin-left: 3rem;
+    margin-top: 1rem;
+
+  }
+
+  .comment-card {
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: .5rem;
+    min-width: 100%;
+    box-shadow: 0 0 50px rgb(97, 94, 94);
+  }
+
+  .comment-card h3, .comment-card p {
+    margin-bottom: 1rem;
+  }
+
+  .comment-footer {
+    display: flex;
+    font-size: .8rem;
+    opacity: .5;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .like {
+    cursor: pointer;
+  }
+  .dislike {
+    cursor: pointer;
+  }
+  .show-reply {
+    cursor: pointer;
+  }

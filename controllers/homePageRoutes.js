@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Brand, Style } = require('../models');
+const { Brand, Style, Comment } = require('../models');
 
 // need to update variables to match once we have all our informaton for handlebars and such
 router.get('/', async (req, res) => {
@@ -11,8 +11,9 @@ router.get('/', async (req, res) => {
           attributes: ['filename', 'description'],
         },
       ],
-    });
 
+    });
+   
     const brands = dbBrandData.map((Brand) =>
       Brand.get({ plain: true })
     );
@@ -54,12 +55,35 @@ router.get('/brand/:id', async (req, res) => {
 });
 
 // GET one shoe by id and possibly reviews. 
+// router.get('/style/:id', async (req, res) => {
+//   try {
+//     const dbstyleData = await Style.findByPk(req.params.id);
+//     const comments = await Comment.findAll({
+//         where: {
+//           style_id: req.params.id
+//         },
+//         attributes: ["comment_content"]
+
+//     })
+//     const styles = dbstyleData.get({ plain: true });
+//     // const comments = commentsData.get({ plain: true });
+
+//     console.log(styles, comments)
+//     res.render('shoeStyle', { styles, comments, loggedIn: req.session.loggedIn });
+//   } catch (err) {
+//     console.log(err);
+//     res.status(500).json(err);
+//   }
+// });
+
 router.get('/style/:id', async (req, res) => {
   try {
-    const dbstyleData = await Style.findByPk(req.params.id);
-
+    const dbstyleData = await Style.findByPk(req.params.id, {
+      include: [Comment]
+    });   
     const styles = dbstyleData.get({ plain: true });
-    res.render('shoeStyle', { styles, loggedIn: req.session.loggedIn });
+    console.log(styles)
+    res.render('shoeStyle', { styles, comments: styles.comment, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
@@ -86,7 +110,6 @@ router.get('/signup', (req, res) => {
 router.get('/culture', (req, res) => {
   res.render('culture');
 });
-
 
 
 module.exports = router;
